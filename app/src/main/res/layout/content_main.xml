@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="30dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CustomTextView"
+                    android:layout_alignParentStart="true"
+                    android:text="@string/id" />
+
+                <TextView
+                    android:id="@+id/tvId"
+                    style="@style/CustomTextView"
+                    android:layout_alignParentEnd="true"
+                    android:text="" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CustomTextView"
+                    android:layout_alignParentStart="true"
+                    android:text="@string/name" />
+
+                <TextView
+                    android:id="@+id/tvName"
+                    style="@style/CustomTextView"
+                    android:layout_alignParentEnd="true"
+                    android:text="" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CustomTextView"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/icon" />
+
+                <ImageView
+                    android:id="@+id/tvIcon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:src="@mipmap/ic_launcher" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CustomTextView"
+                    android:layout_alignParentStart="true"
+                    android:text="@string/latitude" />
+
+                <TextView
+                    android:id="@+id/tvLatitude"
+                    style="@style/CustomTextView"
+                    android:layout_alignParentEnd="true"
+                    android:text="" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CustomTextView"
+                    android:layout_alignParentStart="true"
+                    android:text="@string/longitude" />
+
+                <TextView
+                    android:id="@+id/tvLongitude"
+                    style="@style/CustomTextView"
+                    android:layout_alignParentEnd="true" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CustomTextView"
+                    android:layout_alignParentStart="true"
+                    android:text="@string/description" />
+
+                <TextView
+                    android:id="@+id/tvDesc"
+                    style="@style/CustomTextView"
+                    android:layout_alignParentEnd="true" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CustomTextView"
+                    android:layout_alignParentStart="true"
+                    android:text="@string/temperature" />
+
+                <TextView
+                    android:id="@+id/tvTemperature"
+                    style="@style/CustomTextView"
+                    android:layout_alignParentEnd="true" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CustomTextView"
+                    android:layout_alignParentStart="true"
+                    android:text="@string/wind_sped" />
+
+                <TextView
+                    android:id="@+id/tvWindSpeed"
+                    style="@style/CustomTextView"
+                    android:layout_alignParentEnd="true" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CustomTextView"
+                    android:layout_alignParentStart="true"
+                    android:text="@string/clouds" />
+
+                <TextView
+                    android:id="@+id/tvClouds"
+                    style="@style/CustomTextView"
+                    android:layout_alignParentEnd="true" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CustomTextView"
+                    android:layout_alignParentStart="true"
+                    android:text="@string/humidity" />
+
+                <TextView
+                    android:id="@+id/tvHumidity"
+                    style="@style/CustomTextView"
+                    android:layout_alignParentEnd="true" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

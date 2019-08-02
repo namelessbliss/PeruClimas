@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">PeruWeather</string>
+    <string name="id">ID: </string>
+    <string name="name">Name: </string>
+    <string name="icon">Icon: </string>
+    <string name="latitude">Latitude: </string>
+    <string name="longitude">Longitude: </string>
+    <string name="description">Description: </string>
+    <string name="temperature">Temperature: </string>
+    <string name="wind_sped">Wind Speed: </string>
+    <string name="clouds">Clouds: </string>
+    <string name="humidity">Humidity: </string>
+    <string name="selection">Select One</string>
+    <string name="serviceFailture">Error</string>
+    <string name="cityNotFound">City not found</string>
+
+
+    <!--Lista por defecto de Ciudades del Peru-->
+    <string-array name="citiesFromPeru">
+        <item>Amazonas</item>
+        <item>Áncash</item>
+        <item>Apurímac</item>
+        <item>Arequipa</item>
+        <item>Ayacucho</item>
+        <item>Cajamarca</item>
+        <item>Callao </item>
+        <item>Cuzco</item>
+        <item>Huancavelica</item>
+        <item>Huánuco</item>
+        <item>Ica</item>
+        <item>Junín</item>
+        <item>La Libertad</item>
+        <item>Lambayeque</item>
+        <item>Lima </item>
+        <item>Loreto</item>
+        <item>Madre de Dios </item>
+        <item>Moquegua </item>
+        <item>Pasco </item>
+        <item>Piura </item>
+        <item>Puno </item>
+        <item>San Martín </item>
+        <item>Tacna </item>
+        <item>Tumbes </item>
+        <item>Ucayali </item>
+    </string-array>
+</resources>

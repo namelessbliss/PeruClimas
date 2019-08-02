@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PeruClimas</string>
+    <string name="id">ID: </string>
+    <string name="name">Nombre: </string>
+    <string name="icon">Icono: </string>
+    <string name="latitude">Latitud: </string>
+    <string name="longitude">Longitud: </string>
+    <string name="description">Descripcion: </string>
+    <string name="temperature">Temperatura: </string>
+    <string name="wind_sped">Velocidad del viento: </string>
+    <string name="clouds">Nubocidad: </string>
+    <string name="humidity">Humedad: </string>
+    <string name="selection">Seleccione</string>
+    <string name="serviceFailture">Error al obtener datos</string>
+    <string name="cityNotFound">No se ha encontrado la ciudad seleccionada</string>
+
+
+</resources>
